@@ -19,7 +19,7 @@ int main()
 				imin = j;
 			int a = mas[i];
 			mas[i] = mas[imin];
-			mas[i] = a;
+			mas[imin] = a;
 		}
 
 	}
